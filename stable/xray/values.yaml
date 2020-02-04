@@ -139,7 +139,7 @@ postgresql:
 ## ref: https://github.com/kubernetes/charts/blob/master/stable/mongodb/README.md
 ##
 mongodb:
-  enabled: true
+  enabled: false
   image:
     tag: 3.6.3
     pullPolicy: IfNotPresent
@@ -178,7 +178,7 @@ mongodb:
 ## ref: https://github.com/kubernetes/charts/blob/master/stable/rabbitmq-ha/README.md
 ##
 rabbitmq-ha:
-  enabled: true
+  enabled: false
   replicaCount: 1
   rabbitmqUsername: guest
   rabbitmqPassword:
